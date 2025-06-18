@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import io
 
-st.title('Distill Financials Dashboard')
+st.title('Macrocosm Financials Dashboard')
 revenue_tab, costs_tab, earnings_tab = st.tabs(["Revenue", "Costs", "Earnings"])
 
 # Shared data dictionary

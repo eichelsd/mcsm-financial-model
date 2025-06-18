@@ -51,7 +51,7 @@ def main():
     .primary-color {
         color: #f9c80e !important;
     }
-    
+    /*
     /* TEST BEGIN TEST Update any blue elements to use the new primary color */
     .stButton > button {
         background-color: #f9c80e !important;
@@ -73,6 +73,7 @@ def main():
     .primary-accent {
         color: #f9c80e !important;
     }
+    */
     /* Sidebar styling - matches chart background exactly */
     .css-1d391kg {
         background-color: #1e293b;  /* slate-800 - same as charts */
