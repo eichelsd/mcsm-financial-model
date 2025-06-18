@@ -1,6 +1,6 @@
-# 🏢 Distill Financial Model
+# 🏢 Macrocosm Financial Model
 
-A comprehensive financial modeling dashboard built with Streamlit that uses Monte Carlo simulation to project revenue, costs, and earnings with uncertainty modeling.
+A comprehensive financial modeling dashboard built with Streamlit that uses Monte Carlo simulation to project revenue, costs, and earnings with uncertainty modeling. Derived from model built by David Kozak at Distill. 
 
 ## 📋 Features
 
