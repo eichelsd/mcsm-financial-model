@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Main Streamlit application for Distill Financial Model.
+Main Streamlit application for Macrocosm Financial Model.
 
 This is the entry point for the financial modeling dashboard. It orchestrates
 the UI components, runs simulations, and displays results.
@@ -30,7 +30,7 @@ def main():
     
     # Configure Streamlit page with dark theme
     st.set_page_config(
-        page_title="Distill Financial Model",
+        page_title="Macrocosm Financial Model",
         page_icon="🏢",
         layout="wide",
         initial_sidebar_state="expanded"
@@ -47,7 +47,32 @@ def main():
         border: none;  /* Remove border - Tufte: remove unnecessary ink */
         padding: 1rem 2rem;  /* Tighter padding */
     }
+    /* Primary color override - change from blue to yellow */
+    .primary-color {
+        color: #f9c80e !important;
+    }
     
+    /* TEST BEGIN TEST Update any blue elements to use the new primary color */
+    .stButton > button {
+        background-color: #f9c80e !important;
+        color: #0f172a !important;  /* Dark text for contrast */
+        border: 1px solid #f9c80e !important;
+    }
+    
+    .stButton > button:hover {
+        background-color: #e6b800 !important;  /* Slightly darker on hover */
+        border-color: #e6b800 !important;
+    }
+    
+    /* Update sidebar accent colors */
+    .css-1d391kg .stSlider > div > div > div > div {
+        background-color: #f9c80e !important;
+    }
+    
+    /* TEST END TEST Update any other primary color references */
+    .primary-accent {
+        color: #f9c80e !important;
+    }
     /* Sidebar styling - matches chart background exactly */
     .css-1d391kg {
         background-color: #1e293b;  /* slate-800 - same as charts */

@@ -44,7 +44,7 @@ A comprehensive financial modeling dashboard built with Streamlit that uses Mont
 The application is organized into modular components for better maintainability:
 
 ```
-distill-financial-model/
+mcsm-financial-model/
 ├── main.py                 # Main Streamlit application
 ├── src/
 │   ├── __init__.py        # Package initialization

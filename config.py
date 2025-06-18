@@ -1,5 +1,5 @@
 """
-Configuration and constants for the Distill Financial Model.
+Configuration and constants for the Macrocosm Financial Model.
 
 This module contains default values, constants, and configuration settings
 used throughout the financial modeling application.
@@ -50,13 +50,13 @@ class CostConfig:
     """Configuration for cost model parameters."""
     
     # Infrastructure costs
-    hosting_initial_default: float = 1500.0
+    hosting_initial_default: float = 100.0
     hosting_growth_default: float = 15.0
     hosting_growth_min: float = 0.0
     hosting_growth_max: float = 100.0
     
     software_initial_default: float = 2000.0
-    software_growth_default: float = 15.0
+    software_growth_default: float = 10.0
     software_growth_min: float = 0.0
     software_growth_max: float = 100.0
     
@@ -66,10 +66,10 @@ class CostConfig:
     
     # Headcount costs
     salary_per_person_default: float = 20000.0
-    initial_headcount_default: int = 5
+    initial_headcount_default: int = 7
     initial_headcount_min: int = 1
     initial_headcount_max: int = 20
-    headcount_delay_default: int = 0
+    headcount_delay_default: int = 3
     headcount_growth_median_default: float = 1.0
     headcount_growth_median_min: float = 0.0
     headcount_growth_median_max: float = 3.0
@@ -100,9 +100,9 @@ class SimulationConfig:
     """Configuration for simulation parameters."""
     
     # Simulation parameters
-    months_default: int = 24
+    months_default: int = 36
     months_min: int = 12
-    months_max: int = 36
+    months_max: int = 48
     
     simulations_default: int = 500
     simulations_min: int = 100
